@@ -73,7 +73,7 @@ res.setHeader("Access-Control-Allow-Headers", "Content-Type");
   // Server info 
   if (url === "/server-info") { 
     const data = { 
-      // internalURL: "https://scratch-server-xniu.onrender.com/stage", 
+      internalURL: "https://scratch-server-xniu.onrender.com/stage", 
       externalURL: "https://scratch-server-xniu.onrender.com" 
     }; 
     res.writeHead(200, { "Content-Type": "application/json" }); 
